@@ -9,12 +9,17 @@ import { CssComponent } from './components/css/css.component';
 import { ClassesComponent } from './components/classes/classes.component';
 import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
 import { HomeComponent } from './components/home/home.component';
+import { UserComponent } from './components/user/user.component';
 
 // Directives
 import { HighlightDirective } from './directives/highlight.directive';
 
 // Routes
 import { APP_ROUNTING } from './app.routes';
+import { NewUserComponent } from './components/user/new-user.component';
+import { EditUserComponent } from './components/user/edit-user.component';
+import { DetailUserComponent } from './components/user/detail-user.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 
@@ -26,7 +31,12 @@ import { APP_ROUNTING } from './app.routes';
     ClassesComponent,
     NgSwitchComponent,
     HomeComponent,
-    HighlightDirective
+    HighlightDirective,
+    UserComponent,
+    NewUserComponent,
+    EditUserComponent,
+    DetailUserComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

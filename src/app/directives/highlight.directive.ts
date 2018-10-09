@@ -8,7 +8,6 @@ export class HighlightDirective {
   @Input('appHighlight') newColor: string;
 
   constructor( private elementRef: ElementRef ) {
-    console.log('Directive called');
   }
 
   @HostListener('mouseenter') mouseOver() {
